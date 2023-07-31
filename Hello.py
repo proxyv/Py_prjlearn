@@ -1,3 +1,5 @@
 name = input ("Please type your name: ").strip().title()
 #name = name.title()
-print (f"Hello, {name}!!") 
+#split user's name into first and last name
+first, last = name.split(" ")
+print (f"Hello, {last}!!") 
